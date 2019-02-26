@@ -26,6 +26,16 @@ h1 {
   flex-direction: column;
   align-content: space-around;
 }
+.navBlock .navSpace {
+  margin-bottom: 40px;
+}
+.navBlock .navSpace1 {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.navBlock .navSpace3 {
+  margin-bottom: 120px;
+}
 .navBlock .navCustom {
   color: black;
 }
@@ -33,14 +43,14 @@ h1 {
   color: black;
 }
 
-.imgAcceuil {
+.imgAccueil {
   display: flex;
   max-width: 100%;
   height: auto;
   margin: 20px;
 }
 
-.imgAcceuilFirstRow {
+.imgAccueilFirstRow {
   margin-bottom: 50px;
 }
 

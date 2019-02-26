@@ -1,5 +1,8 @@
+$body-color: #eff3f4;
+
+// Commun css for all pages
 body {
-    background-color: #eff3f4;
+    background-color: $body-color;
 }
 
 .page {
@@ -7,13 +10,13 @@ body {
     max-width: 1400px;
     min-width: 300px;
     width: 95%;
-    background-color: #eff3f4;
+    background-color: $body-color;
     font-family: 'Text Me One', sans-serif;
     font-size: 18px;
 }
 
 .jumbotron {
-    background-color: #eff3f4;
+    background-color: $body-color;
     text-align: center;
 }
 
@@ -25,6 +28,16 @@ h1 {
     display: flex;
     flex-direction: column;
     align-content: space-around;
+    .navSpace {
+        margin-bottom: 40px;
+    }
+    .navSpace1 {
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+    .navSpace3 {
+        margin-bottom: 120px;
+    }
     .navCustom {
         color: black;
         &:hover {
@@ -33,13 +46,14 @@ h1 {
     }
 }
 
-.imgAcceuil {
+// Accueil page
+.imgAccueil {
     display: flex;
     max-width: 100%;
     height: auto;
     margin: 20px;
 }
 
-.imgAcceuilFirstRow {
+.imgAccueilFirstRow {
     margin-bottom: 50px;
 }
