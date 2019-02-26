@@ -1,0 +1,45 @@
+body {
+    background-color: #eff3f4;
+}
+
+.page {
+    margin: auto;
+    max-width: 1400px;
+    min-width: 300px;
+    width: 95%;
+    background-color: #eff3f4;
+    font-family: 'Text Me One', sans-serif;
+    font-size: 18px;
+}
+
+.jumbotron {
+    background-color: #eff3f4;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.navBlock {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    .navCustom {
+        color: black;
+        &:hover {
+            color: black;
+        }
+    }
+}
+
+.imgAcceuil {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+.imgAcceuilFirstRow {
+    margin-bottom: 50px;
+}
