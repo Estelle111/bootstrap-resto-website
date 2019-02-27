@@ -54,4 +54,46 @@ h1 {
   margin-bottom: 50px;
 }
 
+h2 {
+  text-align: center;
+}
+
+.colThird {
+  margin-left: 40px;
+}
+
+.liste {
+  background-color: #eff3f4;
+}
+.liste .badge {
+  background-color: #a4bac0;
+  font-family: sans-serif;
+}
+
+.imgCarte1 {
+  margin-left: 0;
+}
+
+.imgCarte2 {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+/* .regimColumn {
+    margin-left: auto;
+    .regimCarteBlock {
+        margin-top: 260px;
+        .regimCarte {
+            text-align: left;
+        }
+    }
+} */
+.column2 {
+  margin-left: 45px;
+}
+
+.address1 {
+  line-height: 15px;
+}
+
 /*# sourceMappingURL=style.css.map */

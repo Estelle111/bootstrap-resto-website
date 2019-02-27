@@ -1,4 +1,5 @@
 $body-color: #eff3f4;
+$badge-color: #a4bac0;
 
 // Commun css for all pages
 body {
@@ -46,7 +47,7 @@ h1 {
     }
 }
 
-// Accueil page
+// page Accueil 
 .imgAccueil {
     display: flex;
     max-width: 100%;
@@ -57,3 +58,49 @@ h1 {
 .imgAccueilFirstRow {
     margin-bottom: 50px;
 }
+
+// page Carte
+h2 {
+    text-align: center;
+}
+
+.colThird {
+    margin-left: 40px;
+}
+
+.liste {
+    background-color: $body-color;
+    .badge {
+        background-color: $badge-color;
+        font-family: sans-serif;
+    }
+}
+
+.imgCarte1 {
+    margin-left: 0;
+}
+
+.imgCarte2 {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+/* .regimColumn {
+    margin-left: auto;
+    .regimCarteBlock {
+        margin-top: 260px;
+        .regimCarte {
+            text-align: left;
+        }
+    }
+} */
+
+//page location
+.column2 {
+    margin-left: 45px;
+}
+
+.address1 {
+    line-height: 15px;
+}
+
