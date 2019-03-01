@@ -19,6 +19,7 @@
                 <div class="jumbotron jumbotron-fluid">
                     <div class="container">
                         <h1>PerkUus</h1>
+                        <div id="date"></div>
                     </div>
                 </div>
             </header>
@@ -38,60 +39,68 @@
                         </nav>
                     </div>
                     <div class="column2 col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div>
-                            <h4>PerkUus</h4>
-                            <div class="address1">
+                        <div class="blocLoc1">
+                            <div class="titleLocation">
+                                <h3>PerkUus</h3>
+                            </div>
+                            <div class="address">
                                 <p>rue du Printemps, 18</p>
                                 <p>1050 Ixelles</p>
                                 <p>+32 488 56 33 62</p>
                                 <p>info@perkuus.be</p>
                             </div>
-                            <div>
-                                <a href="https://www.google.com/maps/place/Rue+du+Printemps+18,+1050+Ixelles/@50.8199266,4.3848955,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3c4c43d534fb7:0xc906b1b1da301f3!8m2!3d50.8199232!4d4.3870895" target="blank">
+                            <div class="map">
+                                <p><a href="https://www.google.com/maps/place/Rue+du+Printemps+18,+1050+Ixelles/@50.8199266,4.3848955,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3c4c43d534fb7:0xc906b1b1da301f3!8m2!3d50.8199232!4d4.3870895" target="blank">
                                     see on google map
-                                </a>
+                                </a></p>
                             </div>
                             <div>
-                                <p>lundi à vendredi : 7h30 - 15h</p>
-                                <input type="text" id="time" size="10"/>
+                                <p>lundi à vendredi : 7h - 15h</p>
+                                <div class="openClosed" id="xlHorair"></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div>
-                            <h4>PerkUus</h4>
-                            <div>
+                        <div class="blocLoc2">
+                            <div class="titleLocation">
+                                <h3>PerkUus</h3>
+                            </div>
+                            <div class="address">
                                 <p>rue de Moscou, 32</p>
                                 <p>1060 Saint-Gilles</p>
                                 <p>+32 478 34 28 52</p>
                                 <p>info@perkuus.be</p>
                             </div>
-                            <div>
-                                <a href="https://www.google.com/maps/place/Rue+de+Moscou+32,+1060+Saint-Gilles/@50.8310483,4.3437321,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3c4665ce76625:0x35f459b305ce8823!8m2!3d50.8310449!4d4.3459261" target="blank">
+                            <div class="map">
+                                <p><a href="https://www.google.com/maps/place/Rue+de+Moscou+32,+1060+Saint-Gilles/@50.8310483,4.3437321,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3c4665ce76625:0x35f459b305ce8823!8m2!3d50.8310449!4d4.3459261" target="blank">
                                     see on google map
-                                </a>
+                                </a></p>
                             </div>
                             <div>
-                                <p>samedi à mercredi : 7h30 - 15h</p>
+                                <p>samedi à mercredi : 7h - 15h</p>
+                                <div class="openClosed" id="sgHorair"></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div>
-                            <h4>PerkUus</h4>
-                            <div>
+                        <div class="blocLoc3">
+                            <div class="titleLocation">
+                                <h3>PerkUus</h3>
+                            </div>
+                            <div class="address">
                                 <p>rue du Tilleul, 24</p>
                                 <p>1030 Schaerbeek</p>
                                 <p>+32 495 23 40 91</p>
                                 <p>info@perkuus.be</p>
                             </div>
-                            <div>
-                                <a href="https://www.google.com/maps/place/Rue+du+Tilleul+24,+1030+Schaerbeek/@50.8778167,4.3885999,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3c322d2cf79f1:0xeed421ea9b665d7b!8m2!3d50.8778133!4d4.3907939" target="blank">
+                            <div class="map">
+                                <p><a href="https://www.google.com/maps/place/Rue+du+Tilleul+24,+1030+Schaerbeek/@50.8778167,4.3885999,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3c322d2cf79f1:0xeed421ea9b665d7b!8m2!3d50.8778133!4d4.3907939" target="blank">
                                     see on google map
-                                </a>
+                                </a></p>
                             </div>
                             <div>
-                                <p>mardi à dimanche : 7h30 - 16h</p>
+                                <p>mardi à dimanche : 7h - 16h</p>
+                                <div class="openClosed" id="scHorair"></div>
                             </div>
                         </div>
                     </div>
@@ -101,8 +110,9 @@
                 </div>
             </main>
             <footer>
-                <div></div>
-                <div>copyright</div>
+                <div class="footerCustom">
+                    <p>site construit par estelle mol pour becode</p>
+                </div>
             </footer>
         </div>
 

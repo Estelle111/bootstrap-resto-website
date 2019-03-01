@@ -21,8 +21,21 @@ body {
     text-align: center;
 }
 
+/* .logo {
+    float: left;
+    width: 140px;
+    margin-left: 340px;
+    margin-top: -55px;
+    position: absolute;
+    z-index: 20;
+} */
+
+
 h1 {
     font-size: 50px;
+    position: relative;
+    z-index: 10;
+    margin-left: -20px;
 }
 
 .navBlock {
@@ -44,6 +57,16 @@ h1 {
         &:hover {
             color: black;
         }
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    .footerCustom {
+        margin-top: 90px;
+        font-size: 16px;
     }
 }
 
@@ -72,7 +95,6 @@ h2 {
     background-color: $body-color;
     .badge {
         background-color: $badge-color;
-        font-family: sans-serif;
     }
 }
 
@@ -85,22 +107,51 @@ h2 {
     margin-left: 0;
 }
 
-/* .regimColumn {
-    margin-left: auto;
-    .regimCarteBlock {
-        margin-top: 260px;
-        .regimCarte {
-            text-align: left;
-        }
-    }
-} */
-
 //page location
 .column2 {
     margin-left: 45px;
 }
 
-.address1 {
+.blocLoc1 {
+    margin-top: 80px;
+}
+
+.blocLoc2 {
+    margin-top: 208px;
+}
+
+.blocLoc3 {
+    margin-top: 35px;
+}
+
+.address {
+    margin-bottom: 30px;
     line-height: 15px;
 }
 
+.titleLocation {
+    margin-bottom: 40px;
+}
+
+.map {
+    margin-bottom: 25px;
+}
+
+.openClosed {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+//page contact
+.imgAccueilContact {
+    margin: 0; 
+}
+
+.imgContact {
+    margin-top: 65px;
+    margin-left: 75px;
+}
+
+.colTrois {
+    margin-left: 70px;
+}
