@@ -1,5 +1,5 @@
 # [bootstrap-resto-website](https://estelle111.github.io/bootstrap-resto-website/)
-**After 2 months of training**
+**After 2 months and 6 days of training**
 
 ## Description
 * Create a website restaurant with bootstrap.
